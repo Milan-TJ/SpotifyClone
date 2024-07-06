@@ -1,0 +1,54 @@
+.playbar{
+    width: 85%;
+    height: 4rem;
+    background-color: #000;
+    position: fixed;
+    bottom: 5;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+}
+.icons{
+    width: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons i{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+.songInfo{
+    width: 15%;
+    height: 4rem;
+    background-color: #000;
+    position: fixed;
+    bottom: 5;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#gif{
+    height: 4rem;
+    width: 25%;
+    background-color: #fff;
+}
+#masterSongName{
+    height: 4rem;
+    width: 75%;
+    padding-left: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
